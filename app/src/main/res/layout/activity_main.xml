@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_weight="1">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/srl_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/mainListView"
+        android:background="#FFF"
+        android:paddingBottom="50dp"
+
+        >
+
+
+        </ListView>
+
+</android.support.v4.widget.SwipeRefreshLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#000"
+        android:weightSum="1"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/news_frag"
+            android:layout_weight=".50"
+            android:scaleType="centerCrop"
+            android:id="@+id/news_frag"/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/time_frag"
+            android:layout_weight=".50"
+            android:scaleType="centerCrop"
+            android:id="@+id/time_frag"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

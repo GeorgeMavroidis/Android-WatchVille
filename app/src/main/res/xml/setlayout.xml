@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="fill_parent">
+    <PreferenceCategory
+        android:title="News Sources"
+        android:key="pref_key_storage_settings">
+        <CheckBoxPreference
+            android:key="aBlogToWatch"
+            android:title="aBlogToWatch"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="HODINKEE"
+            android:title="HODINKEE"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="WATCHTIME"
+            android:title="WATCHTIME"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="Wristfashion"
+            android:title="Wristfashion"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="WatchesbySJX"
+            android:title="Watches by SJX"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="Perpetuelle"
+            android:title="Perpetuelle"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="HauteTime"
+            android:title="Haute Time"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>
